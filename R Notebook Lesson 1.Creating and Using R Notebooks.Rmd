@@ -1,6 +1,8 @@
 ---
 title: "R Notebook Lesson 1:Creating and Using R Notebooks"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
 
 
@@ -48,9 +50,45 @@ hist(x)
 ```
 
 
+# Let's put it directly in the text
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+
+the following is an attempt to put the in code in line with the text 
+I'm writing in this here sentence to get a random number `r rnorm(1)`
+
+# Writing bullet points
+
+1. Item 1
++ sub item 1.1
+  a.) sub on a sub
+  b.) did this work?
+    i.) hey did this work?
++ sub item 1.2
+
+2. Item 2
 
 
+1. Item 1
+  a) sub on a sub
+  b) did this work?
+    i) hey did this work?
++ sub item 1.2
 
+2. Item 2
+
+* Item 1
+* Item 2
+
+
+# R Markdown and Documentation
+
+use this link for [rMarkdown Documents](https://rmarkdown.rstudio.com/lesson-1.html)
+ 
+use this link [here](https://rstudio.com/wp-content/uploads/2015/03/rmarkdown-reference.pdf)
+  
+ 
+
+# End of Document
 
 
 
